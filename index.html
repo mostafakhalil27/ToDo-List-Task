@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello From Js</title>
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center p-5 border border-dark" id="parentt">
+            <h1>Hello From TO DO LIST</h1>
+        </div>
+
+        <div class="task-input-container mt-4 p-3 col-12 col-md-10 border border-dark d-flex align-items-center justify-content-evenly" id="parent">
+            <input type="text" class="form-control w-50" id="taskInput" placeholder="Input Your Task">
+            <button class="btn btn-danger ms-2" id="addTask">Add Task</button>
+            <button class="btn btn-danger ms-2" id="removeTask">Remove Task</button>
+        </div>
+
+        <div class="tasks-container mt-4 p-4 border border-dark col-12 col-md-6" id="tasks">
+            <!-- Task items will be added here -->
+        </div>
+    </div>
+
+    <script src="Js/custom.js"></script>
+</body>
+</html>

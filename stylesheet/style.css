@@ -1,0 +1,45 @@
+/* General styling */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+#parentt {
+  background-color: #f0f8ff;
+}
+
+/* Task input container styling */
+.task-input-container {
+  background-color: #eee;
+  flex-wrap: wrap; /* Ensures buttons stack on smaller screens */
+  text-align: center;
+}
+
+/* Task list container */
+.tasks-container {
+  background-color: #fff;
+  overflow-y: auto;
+  max-height: 300px; /* Limits task container height */
+}
+
+/* Button spacing for smaller screens */
+.task-input-container button {
+  margin-top: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .task-input-container {
+      flex-direction: column;
+  }
+
+  .task-input-container input {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .task-input-container button {
+      width: 100%;
+  }
+}
